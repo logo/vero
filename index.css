@@ -1,0 +1,18 @@
+
+/**
+ * Vero
+ */
+
+.logo[data-logo="Vero"] {
+  width: 3.070786517em;
+  /* (204.75/44.5) * (1-.1-.2) - .05-.1 */
+}
+
+.logo[data-logo="Vero"] > * {
+  background-image: url(images/logo.svg);
+  margin: .15em -.05em .2em -.1em;
+}
+
+.logo[data-logo="Vero"].monochromatic > * {
+  background-image: url(images/logo-monochromatic.svg);
+}

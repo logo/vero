@@ -1,21 +1,2 @@
-
-/**
- * Vero logo.
- */
-
-.logo[data-logo="Vero"] {
-  width: 3.2261924692960635em;
-}
-
-.logo[data-logo="Vero"] > * {
-  background-image: url(images/logo.svg);
-  margin: .05em 0 -.15em 0;
-}
-
-.logo[data-logo="Vero"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Vero"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
